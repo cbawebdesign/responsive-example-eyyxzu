@@ -18,7 +18,7 @@ export class AppComponent  {
     }, {
       icon: 'library_books',
       route: '.',
-      title: 'Documentation',
+      title: 'Documentaddtion',
     }, {
       icon: 'color_lens',
       route: '.',
