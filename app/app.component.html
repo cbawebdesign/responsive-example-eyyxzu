@@ -1,0 +1,84 @@
+<td-layout>
+	<td-navigation-drawer flex [sidenavTitle]="name" logo="assets:covalent" name="Firstname Lastname" email="firstname.lastname@company.com">
+		<mat-nav-list>
+			<a *ngFor="let item of routes" mat-list-item>
+				<mat-icon>{{item.icon}}</mat-icon>{{item.title}}</a>
+		</mat-nav-list>
+		<div td-navigation-drawer-menu>
+			<mat-nav-list>
+				<a *ngFor="let item of usermenu" mat-list-item>
+					<mat-icon>{{item.icon}}</mat-icon>{{item.title}}</a>
+			</mat-nav-list>
+		</div>
+	</td-navigation-drawer>
+	<td-layout-nav logo="assets:covalent" [toolbarTitle]="name" navigationRoute="/">
+		<button mat-icon-button td-menu-button tdLayoutToggle>
+      <mat-icon>menu</mat-icon>
+    </button>
+		<div td-toolbar-content layout="row" layout-align="start center" flex>
+			<span flex></span>
+		</div>
+		<div layout-gt-sm="row" tdMediaToggle="gt-sm" [mediaClasses]="['push-sm']">
+			<div flex-gt-sm="60">
+				<mat-card flex>
+					<mat-card-title>Title</mat-card-title>
+					<mat-divider></mat-divider>
+					<mat-card-content>
+					<div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="https://media.publit.io/file/video5482.html?player=test10&amp;adtag=&amp;at=eyJpdiI6IjNzajZkeUh0SlFTcDFFVFFcL1ZsclZRPT0iLCJ2YWx1ZSI6IjhEbDl4YkJQZjJvTHZHVExZcHVQZ1dTWFlaTVRhaXJ6U0FWRlVETTdvZ2M9IiwibWFjIjoiYTM2NzhjN2EwZTY3MDAzYTNhNWE3ZDA2M2U0NmE0ZmE1MTIxNjIyMDE5NTdhMGE0MTQ3YzkzMDk4NzE3OGU4MiJ9" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen=""></iframe></figure></div></div>
+					</mat-card-content>
+				</mat-card>
+				<div class="pad-none push-none" layout-gt-md="row">
+					<mat-card flex>
+					<mat-card-title>Title</mat-card-title>
+						<mat-divider></mat-divider>
+						<mat-card-content>
+							<div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="https://media.publit.io/file/video5482.html?player=test10&amp;adtag=&amp;at=eyJpdiI6IjNzajZkeUh0SlFTcDFFVFFcL1ZsclZRPT0iLCJ2YWx1ZSI6IjhEbDl4YkJQZjJvTHZHVExZcHVQZ1dTWFlaTVRhaXJ6U0FWRlVETTdvZ2M9IiwibWFjIjoiYTM2NzhjN2EwZTY3MDAzYTNhNWE3ZDA2M2U0NmE0ZmE1MTIxNjIyMDE5NTdhMGE0MTQ3YzkzMDk4NzE3OGU4MiJ9" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen=""></iframe></figure></div></div>
+						</mat-card-content>
+					</mat-card>
+					<mat-card flex>
+					<mat-card-title>Title</mat-card-title>
+						<mat-divider></mat-divider>
+						<mat-card-content>
+						<div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="https://media.publit.io/file/video5482.html?player=test10&amp;adtag=&amp;at=eyJpdiI6IjNzajZkeUh0SlFTcDFFVFFcL1ZsclZRPT0iLCJ2YWx1ZSI6IjhEbDl4YkJQZjJvTHZHVExZcHVQZ1dTWFlaTVRhaXJ6U0FWRlVETTdvZ2M9IiwibWFjIjoiYTM2NzhjN2EwZTY3MDAzYTNhNWE3ZDA2M2U0NmE0ZmE1MTIxNjIyMDE5NTdhMGE0MTQ3YzkzMDk4NzE3OGU4MiJ9" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen=""></iframe></figure></div></div>
+						</mat-card-content>
+					</mat-card>
+					<mat-card flex>
+					<mat-card-title>Title</mat-card-title>
+						<mat-divider></mat-divider>
+						<mat-card-content>
+						<div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.78%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="https://media.publit.io/file/video5482.html?player=test10&amp;adtag=&amp;at=eyJpdiI6IjNzajZkeUh0SlFTcDFFVFFcL1ZsclZRPT0iLCJ2YWx1ZSI6IjhEbDl4YkJQZjJvTHZHVExZcHVQZ1dTWFlaTVRhaXJ6U0FWRlVETTdvZ2M9IiwibWFjIjoiYTM2NzhjN2EwZTY3MDAzYTNhNWE3ZDA2M2U0NmE0ZmE1MTIxNjIyMDE5NTdhMGE0MTQ3YzkzMDk4NzE3OGU4MiJ9" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen=""></iframe></figure></div></div>
+						</mat-card-content>
+					</mat-card>
+					<mat-card>
+					<mat-card-title>Title</mat-card-title>
+						<mat-divider></mat-divider>
+						<mat-card-content>
+							card content
+						</mat-card-content>
+					</mat-card>
+				</div>
+			</div>
+			<div flex-gt-sm="40">
+				<mat-card flex>
+					<mat-card-title>Title</mat-card-title>
+					<mat-divider></mat-divider>
+					<mat-card-content>
+						card content
+					</mat-card-content>
+				</mat-card>
+				<mat-card flex class="push-top">
+					<mat-card-title>Title</mat-card-title>
+					<mat-divider></mat-divider>
+					<mat-card-content>
+						card content
+					</mat-card-content>
+				</mat-card>
+			</div>
+		</div>
+		<td-layout-footer>
+			<div layout="row" layout-align="start center">
+				<span class="mat-caption">Copyright &copy; 2017 Teradata. All rights reserved</span>
+			</div>
+		</td-layout-footer>
+	</td-layout-nav>
+</td-layout>
